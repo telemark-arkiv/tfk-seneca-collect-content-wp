@@ -1,0 +1,43 @@
+{
+  "name": "tfk-seneca-collect-content-wp",
+  "version": "1.0.0",
+  "description": "Tfk Seneca content collector wp",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/tfk-seneca-collect-content-wp/issues"
+  },
+  "homepage": "https://github.com/telemark/tfk-seneca-collect-content-wp",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.7.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
+    "test-offline": "standard && tap --reporter=spec test/**/*.js",
+    "coverage": "tap test/**/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install",
+    "standard-fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/telemark/tfk-seneca-collect-content-wp.git"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.15",
+    "nsp": "2.6.2",
+    "seneca": "3.2.2",
+    "standard": "8.6.0",
+    "tap": "8.0.1"
+  },
+  "dependencies": {
+    "striptags": "2.1.1",
+    "tfk-unique-array": "1.0.5",
+    "wreck": "10.0.0"
+  }
+}
