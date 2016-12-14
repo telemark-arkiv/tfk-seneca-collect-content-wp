@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/telemark/tfk-seneca-collect-content-wp.svg?branch=master)](https://travis-ci.org/telemark/tfk-seneca-collect-content-wp)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # tfk-seneca-collect-content-wp
-Collect content from wp sites
+Collect content from wp sites with rest-api plug-in enabled.
 
 ## Messages handled
 
