@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "striptags": "2.1.1",
-    "tfk-unique-array": "1.0.5",
+    "tfk-unique-array": "1.0.6",
     "wreck": "10.0.0"
   }
 }
