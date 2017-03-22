@@ -38,6 +38,6 @@
   "dependencies": {
     "tfk-unique-array": "1.0.7",
     "striptags": "3.0.1",
-    "wreck": "10.0.0"
+    "wreck": "11.0.0"
   }
 }
