@@ -30,14 +30,14 @@
   },
   "devDependencies": {
     "coveralls": "2.13.0",
-    "nsp": "2.6.2",
+    "nsp": "2.6.3",
     "seneca": "3.2.2",
-    "standard": "8.6.0",
+    "standard": "10.0.1",
     "tap": "10.2.0"
   },
   "dependencies": {
     "tfk-unique-array": "1.0.7",
     "striptags": "3.0.1",
-    "wreck": "10.0.0"
+    "wreck": "12.0.0"
   }
 }
