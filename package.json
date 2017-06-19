@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-collect-content-wp",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Tfk Seneca content collector wp",
   "license": "MIT",
   "author": {
@@ -33,7 +33,7 @@
     "nsp": "2.6.3",
     "seneca": "3.2.2",
     "standard": "10.0.2",
-    "tap": "10.4.0"
+    "tap": "10.3.3"
   },
   "dependencies": {
     "tfk-unique-array": "1.0.11",
